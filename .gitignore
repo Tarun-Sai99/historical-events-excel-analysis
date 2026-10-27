@@ -1,0 +1,9 @@
+# Excel lock/temp files (created while a workbook is open)
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
