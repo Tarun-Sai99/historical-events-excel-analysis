@@ -22,7 +22,7 @@ images/           chart and dashboard screenshots
 ## Progress
 
 - [x] Day 1: Set up repo and load data
-- [ ] Day 2: Profile the data
+- [x] Day 2: Profile the data
 - [ ] Day 3: Clean the data
 - [ ] Day 4: Add helper columns (century, era, region, category)
 - [ ] Day 5: Explore with formulas and PivotTables
