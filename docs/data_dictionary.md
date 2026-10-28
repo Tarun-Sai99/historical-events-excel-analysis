@@ -11,7 +11,7 @@ This describes the data **as downloaded**, before any cleaning. Problems noted h
 |---|--------|------------------|---------|---------|-------|
 | 1 | Sl. No | Whole number | Serial number of the event | 1 | Unique for every row, but has gaps (runs 1 to 1151 for 1,096 rows) |
 | 2 | Name of Incident | Text | Name of the event | Battle of Panipat | Hyphens were replaced by the word "Unknown" (e.g. "IndoUnknownPakistani War of 1971") |
-| 3 | Date | Text | Day of the month the event happened | 21 | "Unknown" in 427 rows and blank in 26 |
+| 3 | Date | Text | Day of the month the event happened | 21 | "Unknown" in 427 rows; 26 more look blank but contain only spaces |
 | 4 | Month | Text | Month name | April | "Unknown" in 395 rows |
 | 5 | Year | Text | Year the event happened | 1526, 2600 BC | Stored as text because 7 BCE years are written like "2600 BC"; 2 rows have year 0, which doesn't exist |
 | 6 | Country | Text | Country where the event happened | India | 113 distinct values; spellings to be standardised |
