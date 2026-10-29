@@ -19,6 +19,13 @@ docs/             data dictionary, profiling notes, cleaning log, insights
 images/           chart and dashboard screenshots
 ```
 
+## The data
+
+- **1,096 events** (one row per event) with **12 columns**: name, day, month, year, country, type of event, place, impact, affected population, person or group responsible, and outcome (Positive, Negative, Mixed or Ongoing).
+- Covers **2600 BC to 2022 AD** across **113 countries**.
+- Imported into Excel with **Power Query** (`Raw_Data` query), so the raw file is never edited and the workbook can be refreshed.
+- Every column is described in the [data dictionary](docs/data_dictionary.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
