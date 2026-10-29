@@ -37,6 +37,19 @@ Before cleaning, I profiled every column with formulas on the `Profiling` sheet.
 
 Full details: [data profiling notes](docs/data_profiling.md).
 
+## Data cleaning
+
+All cleaning is done in Power Query (`Clean_Data` query), so every step is recorded and repeatable.
+
+- Trimmed extra spaces and turned "Unknown" and space-only cells into real blanks (`null`).
+- Put the hyphens back in the 234 affected rows ("Indo-Pakistani War").
+- Removed the 8 duplicate events, keeping the more complete copy: **1,096 → 1,088 rows**.
+- Added a numeric `Year_Num` column with BC years as negatives (2600 BC → -2600), so events sort and chart in the right order.
+- Corrected the two year-0 events with sourced approximate years (68 AD and 100 BC).
+- Checked the result by re-running the same rules outside Excel: 0 differences.
+
+Cleaned data: [`data/cleaned/world_important_events_clean.csv`](data/cleaned/world_important_events_clean.csv). Every change, with reasons and sources: [cleaning log](docs/cleaning_log.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
