@@ -26,6 +26,17 @@ images/           chart and dashboard screenshots
 - Imported into Excel with **Power Query** (`Raw_Data` query), so the raw file is never edited and the workbook can be refreshed.
 - Every column is described in the [data dictionary](docs/data_dictionary.md).
 
+## Data quality
+
+Before cleaning, I profiled every column with formulas on the `Profiling` sheet. Main findings:
+
+- **Missing values were hidden.** No cell was truly blank. Gaps were written as the word "Unknown", or as Date cells holding only spaces. Date was **41%** missing, Month **36%**.
+- **8 events were entered twice** (16 rows).
+- **Year was stored as text**, because of 7 BC dates like "2600 BC", and **2 events had year 0**, which doesn't exist.
+- **Hyphens had been replaced by "Unknown"** inside text in 234 rows (e.g. "IndoUnknownPakistani War").
+
+Full details: [data profiling notes](docs/data_profiling.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
