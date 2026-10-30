@@ -21,3 +21,23 @@ This describes the data **as downloaded**, before any cleaning. Problems noted h
 | 10 | Affected Population | Text | Who was affected | Northern Indian kingdoms | Free text, not a number |
 | 11 | Important Person/Group Responsible | Text | Key person or group | Babur | "Unknown" in 56 rows |
 | 12 | Outcome | Text | Overall result | Positive | 4 values: Positive (589), Negative (304), Mixed (202), Ongoing (1) |
+
+## Columns added during cleaning and analysis
+
+These columns are in the `Clean_Data` table (and in `data/cleaned/world_important_events_clean.csv`). `Year_Num` comes from Power Query (Day 3). The other five are Excel formulas (Day 4).
+
+| # | Column | Type | How it is made | Example | Values |
+|---|--------|------|----------------|---------|--------|
+| 13 | Year_Num | Whole number | Power Query: Year as a number, BC years negative, year-0 rows corrected | -2600, 1947 | -2600 to 2022 |
+| 14 | Century | Whole number | `=ROUNDUP([@Year_Num]/100,0)`. Negative means BC | 20 (1947), -26 (2600 BC) | -26 to 21 |
+| 15 | Era | Text | `LET` + `IFS` on Year_Num | Contemporary | Ancient (to 499), Medieval (500–1499), Early Modern (1500–1799), Modern (1800–1945), Contemporary (1946+) |
+| 16 | Country_Std | Text | `XLOOKUP` of Country in the `country_region` table | Babylon → Iraq | 94 countries (cities and old names mapped to a modern country; USSR kept as its own name) |
+| 17 | Region | Text | `XLOOKUP` of Country in the `country_region` table | South Asia | 10 world regions, plus "Multiple Regions" for the one Spain/USA event |
+| 18 | Category | Text | `XLOOKUP` of Type of Event in the `event_type_category` table | War & Conflict | 9 categories grouping the 402 event types |
+
+### Lookup tables (`Lookups` sheet, source files in `data/reference/`)
+
+- **country_region.csv**: 113 rows, `Country` → `Country_Standard`, `Region`. Examples: Babylon, Basra, Mosul → Iraq; Tehran, Persia → Iran; Samarkand, Bukhara, Tashkent, Uzbek SSR → Uzbekistan; Malaya, Malacca → Malaysia; England → UK; Soviet Union → USSR. Russia and the USSR are placed in Europe.
+- **event_type_category.csv**: 402 rows, `Type of Event` → `Category`. Mixed types go by their main subject (e.g. "Military/Political" → War & Conflict, "Nuclear Test" → War & Conflict, "Space Exploration Disaster" → Disasters & Accidents).
+
+Both lookups use "Not found" as the fallback. After loading, no row shows "Not found".
