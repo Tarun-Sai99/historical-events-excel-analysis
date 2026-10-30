@@ -50,12 +50,22 @@ All cleaning is done in Power Query (`Clean_Data` query), so every step is recor
 
 Cleaned data: [`data/cleaned/world_important_events_clean.csv`](data/cleaned/world_important_events_clean.csv). Every change, with reasons and sources: [cleaning log](docs/cleaning_log.md).
 
+## Helper columns
+
+To group and filter events, I added five formula columns to the cleaned table:
+
+- **Century** (`ROUNDUP`) and **Era** (`LET` + `IFS`): five eras, from Ancient (to 499 AD) to Contemporary (1946 onward).
+- **Country_Std** and **Region** (`XLOOKUP`): a lookup table maps the 113 country values (including cities and old names like Babylon or Persia) to 94 countries and 10 world regions.
+- **Category** (`XLOOKUP`): a second lookup table groups the 402 event types into 9 categories, such as War & Conflict, Politics & Law and Science, Technology & Exploration.
+
+Lookup tables: [`data/reference/`](data/reference/). Column details: [data dictionary](docs/data_dictionary.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
 - [x] Day 2: Profile the data
 - [x] Day 3: Clean the data
-- [ ] Day 4: Add helper columns (century, era, region, category)
+- [x] Day 4: Add helper columns (century, era, region, category)
 - [ ] Day 5: Explore with formulas and PivotTables
 - [ ] Day 6: Build charts
 - [ ] Day 7: Build interactive dashboard
