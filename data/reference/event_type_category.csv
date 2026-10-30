@@ -1,0 +1,403 @@
+Type of Event,Category
+Accident,Disasters & Accidents
+Administrative,Politics & Law
+Administrative Change,Politics & Law
+Administrative Reorganization,Politics & Law
+Agricultural Development,Economy & Infrastructure
+Agricultural Policy,Economy & Infrastructure
+Agricultural Revolution,Economy & Infrastructure
+Annexation,Independence & Nation-Building
+Anti-Corruption Effort,Politics & Law
+Anti-Imperialist Uprising,Independence & Nation-Building
+Archaeological Discovery,"Culture, Religion & Sport"
+Architectural,"Culture, Religion & Sport"
+Architectural/Defensive,"Culture, Religion & Sport"
+Armed Rebellion,War & Conflict
+Artistic Achievement,"Culture, Religion & Sport"
+Assassination Attempt,War & Conflict
+Aviation,"Science, Technology & Exploration"
+Battle,War & Conflict
+Ceasefire,Diplomacy & International Relations
+Central Banking Institution,Economy & Infrastructure
+City Foundation,Independence & Nation-Building
+Civil Disobedience,Society & Health
+Civil Disobedience Movement,Society & Health
+Civil Rights,Society & Health
+Civil Rights Violation,Society & Health
+Civil Unrest,Society & Health
+Civil War,War & Conflict
+Civilization,"Culture, Religion & Sport"
+Colonial,Independence & Nation-Building
+Colonial Administration,Independence & Nation-Building
+Colonial Expansion,Independence & Nation-Building
+Colonial Legislation,Independence & Nation-Building
+Colonial Occupation,Independence & Nation-Building
+Colonial Rule,Independence & Nation-Building
+Colonial Settlement,Independence & Nation-Building
+Colonial Subjugation,Independence & Nation-Building
+Colonial War,War & Conflict
+Commemoration,"Culture, Religion & Sport"
+Conference,Diplomacy & International Relations
+Conflict,War & Conflict
+Conquest,War & Conflict
+Constitutional,Politics & Law
+Constitutional Adoption,Politics & Law
+Constitutional Amendment,Politics & Law
+Constitutional Development,Politics & Law
+Constitutional Reform,Politics & Law
+Constitutional/Legal,Politics & Law
+Coronation,Independence & Nation-Building
+Corruption Investigation,Politics & Law
+Corruption Scandal,Politics & Law
+Counter-Insurgency,War & Conflict
+Country Formation,Independence & Nation-Building
+Country Unification,Independence & Nation-Building
+Coup,War & Conflict
+Coup d'état,War & Conflict
+Criminal Incident,War & Conflict
+Crusade,War & Conflict
+Cultural,"Culture, Religion & Sport"
+Cultural Celebration,"Culture, Religion & Sport"
+Cultural Change,"Culture, Religion & Sport"
+Cultural Development,"Culture, Religion & Sport"
+Cultural Flourishing,"Culture, Religion & Sport"
+Cultural Heritage,"Culture, Religion & Sport"
+Cultural Infrastructure,"Culture, Religion & Sport"
+Cultural Policy,"Culture, Religion & Sport"
+Cultural Shift,"Culture, Religion & Sport"
+Cultural and Political Movement,Society & Health
+Cultural/Economic,"Culture, Religion & Sport"
+Cultural/Legal,"Culture, Religion & Sport"
+Cultural/Political,"Culture, Religion & Sport"
+Cultural/Religious,"Culture, Religion & Sport"
+Cultural/Religious Exchange,"Culture, Religion & Sport"
+Declaration of Independence,Independence & Nation-Building
+Decline,Economy & Infrastructure
+Defense Policy,Politics & Law
+Democratic Uprising,Society & Health
+Dictatorship,Politics & Law
+Diplomatic,Diplomacy & International Relations
+Diplomatic Agreement,Diplomacy & International Relations
+Diplomatic Event,Diplomacy & International Relations
+Diplomatic Incident,Diplomacy & International Relations
+Diplomatic Meeting,Diplomacy & International Relations
+Diplomatic Mission,Diplomacy & International Relations
+Diplomatic Policy,Diplomacy & International Relations
+Diplomatic Recognition,Diplomacy & International Relations
+Diplomatic Statement,Diplomacy & International Relations
+Diplomatic/Religious,Diplomacy & International Relations
+Disaster,Disasters & Accidents
+Discovery,"Science, Technology & Exploration"
+Domestic Terrorism,War & Conflict
+Dynastic Founding,Independence & Nation-Building
+Dynastic Restoration,Independence & Nation-Building
+Dynastic Transition,Independence & Nation-Building
+Dynastic Union,Independence & Nation-Building
+Economic,Economy & Infrastructure
+Economic Aid,Economy & Infrastructure
+Economic Boom,Economy & Infrastructure
+Economic Crisis,Economy & Infrastructure
+Economic Development,Economy & Infrastructure
+Economic Innovation,Economy & Infrastructure
+Economic Integration,Economy & Infrastructure
+Economic Nationalism,Economy & Infrastructure
+Economic Policy,Economy & Infrastructure
+Economic Reform,Economy & Infrastructure
+Economic Shift,Economy & Infrastructure
+Economic and Infrastructure Project,Economy & Infrastructure
+Economic/Cultural,"Culture, Religion & Sport"
+Economic/Infrastructure,Economy & Infrastructure
+Economic/Social,Economy & Infrastructure
+Economic/Social Reform Plan,Economy & Infrastructure
+Education,Society & Health
+Education Development,Society & Health
+Education Policy,Society & Health
+Educational Development,Society & Health
+Educational Reform,Society & Health
+Election,Politics & Law
+Electoral Reform,Politics & Law
+Electoral Victory,Politics & Law
+Empire Fall,Independence & Nation-Building
+Empire Peak,Independence & Nation-Building
+End of Colonial Rule,Independence & Nation-Building
+End of WWII,War & Conflict
+End of WWII in Europe,War & Conflict
+Engineering Achievement,Economy & Infrastructure
+Engineering Marvel,Economy & Infrastructure
+Environmental,Society & Health
+Environmental Legislation,Society & Health
+Environmental Policy,Society & Health
+Environmental/Economic Policy,Economy & Infrastructure
+Environmental/Social,Society & Health
+Era Change,"Culture, Religion & Sport"
+Ethnic Conflict,War & Conflict
+Execution,Politics & Law
+Exile Government Formation,Independence & Nation-Building
+Exploration,"Science, Technology & Exploration"
+Famine,Disasters & Accidents
+Federation,Independence & Nation-Building
+Financial Technology,"Science, Technology & Exploration"
+Forced Relocation,Society & Health
+Foreign Policy,Diplomacy & International Relations
+Foundational,Independence & Nation-Building
+Foundational Document,Politics & Law
+General Election,Politics & Law
+General Elections,Politics & Law
+Genocide,War & Conflict
+Geopolitical Division,Independence & Nation-Building
+Government Agency,Politics & Law
+Gun Violence,War & Conflict
+Health,Society & Health
+Health Crisis,Society & Health
+Health Policy,Society & Health
+Healthcare,Society & Health
+Historical,"Culture, Religion & Sport"
+Historical Period,"Culture, Religion & Sport"
+Historical Reconciliation,Diplomacy & International Relations
+Housing Policy,Society & Health
+Human Rights Improvement,Society & Health
+Humanitarian,Society & Health
+Humanitarian/Political,Society & Health
+Independence,Independence & Nation-Building
+Independence Declaration,Independence & Nation-Building
+Independence Movement,Independence & Nation-Building
+Independence/Union,Independence & Nation-Building
+Industrial,Economy & Infrastructure
+Industrial Accident,Disasters & Accidents
+Industrial Disaster,Disasters & Accidents
+Infrastructure,Economy & Infrastructure
+Infrastructure Development,Economy & Infrastructure
+Innovation,"Science, Technology & Exploration"
+Insurgency,War & Conflict
+International,Diplomacy & International Relations
+International Agreement,Diplomacy & International Relations
+International Conference,Diplomacy & International Relations
+International Conflict,War & Conflict
+International Cooperation,Diplomacy & International Relations
+International Crisis,Diplomacy & International Relations
+International Economic Agreement,Economy & Infrastructure
+International Economic Integration,Economy & Infrastructure
+International Event,Diplomacy & International Relations
+International Exhibition,"Culture, Religion & Sport"
+International Finance,Economy & Infrastructure
+International Incident,Diplomacy & International Relations
+International Integration,Diplomacy & International Relations
+International Organization,Diplomacy & International Relations
+International Policy,Diplomacy & International Relations
+International Politics,Diplomacy & International Relations
+International Recognition,Diplomacy & International Relations
+International Relations,Diplomacy & International Relations
+International Sports Event,"Culture, Religion & Sport"
+International Summit,Diplomacy & International Relations
+International Trade Membership,Economy & Infrastructure
+International Treaty,Diplomacy & International Relations
+Judicial,Politics & Law
+Judicial Execution,Politics & Law
+Judicial/Political,Politics & Law
+Judiciary,Politics & Law
+Justice System,Society & Health
+Labor Movement,Society & Health
+Land Policy,Economy & Infrastructure
+Land Reform,Economy & Infrastructure
+Leadership Change,Politics & Law
+Legal,Politics & Law
+Legal Code Introduction,Politics & Law
+Legal Framework,Politics & Law
+Legal Inquiry,Politics & Law
+Legal Land Rights,Society & Health
+Legal Reform,Politics & Law
+Legal System Implementation,Politics & Law
+Legal/Constitutional,Politics & Law
+Legal/Political,Politics & Law
+Legal/Social,Society & Health
+Legislation,Politics & Law
+Legislative,Politics & Law
+Literature,"Culture, Religion & Sport"
+Maritime,Economy & Infrastructure
+Maritime Disaster,Disasters & Accidents
+Mass Protest,Society & Health
+Massacre,War & Conflict
+Mausoleum,"Culture, Religion & Sport"
+Media,"Culture, Religion & Sport"
+Media Development,"Culture, Religion & Sport"
+Medical,"Science, Technology & Exploration"
+Military,War & Conflict
+Military Administration,War & Conflict
+Military Aggression,War & Conflict
+Military Alliance,Diplomacy & International Relations
+Military Battle,War & Conflict
+Military Campaign,War & Conflict
+Military Conflict,War & Conflict
+Military Conquest,War & Conflict
+Military Coup,War & Conflict
+Military Defeat,War & Conflict
+Military Defense,War & Conflict
+Military Engagement,War & Conflict
+Military Formation,War & Conflict
+Military Intervention,War & Conflict
+Military Invasion,War & Conflict
+Military Occupation,War & Conflict
+Military Offensive,War & Conflict
+Military Operation,War & Conflict
+Military Organization,War & Conflict
+Military Rebellion,War & Conflict
+Military Sack,War & Conflict
+Military Siege,War & Conflict
+Military Surrender,War & Conflict
+Military Withdrawal,War & Conflict
+Military/Atomic Warfare,War & Conflict
+Military/Political,War & Conflict
+Military/Political Event,War & Conflict
+Military/Political Incident,War & Conflict
+Military/Religious Campaign,War & Conflict
+Military/Science,"Science, Technology & Exploration"
+Military/Strategic Retreat,War & Conflict
+Military/Technology,"Science, Technology & Exploration"
+Modernization Policy,Economy & Infrastructure
+Modernization/Expansion,Economy & Infrastructure
+Monarchical,Independence & Nation-Building
+Monarchy Establishment,Independence & Nation-Building
+Monument,"Culture, Religion & Sport"
+National Commemoration,"Culture, Religion & Sport"
+National Movement,Independence & Nation-Building
+Nationalization,Economy & Infrastructure
+Natural Disaster,Disasters & Accidents
+Natural Event,Disasters & Accidents
+Naval Battle,War & Conflict
+Naval Engagement,War & Conflict
+Negotiation,Diplomacy & International Relations
+Nuclear Accident,Disasters & Accidents
+Nuclear Energy,"Science, Technology & Exploration"
+Nuclear Test,War & Conflict
+Pandemic,Society & Health
+Partition,Independence & Nation-Building
+Peace Agreement,Diplomacy & International Relations
+Peace Process,Diplomacy & International Relations
+Peace Treaty,Diplomacy & International Relations
+Peace/Security,Diplomacy & International Relations
+Pogrom,War & Conflict
+Policy/Legislation,Politics & Law
+Political,Politics & Law
+Political Action,Politics & Law
+Political Agreement,Diplomacy & International Relations
+Political Annexation,Independence & Nation-Building
+Political Assassination,War & Conflict
+Political Change,Politics & Law
+Political Consolidation,Politics & Law
+Political Corruption,Politics & Law
+Political Coup,War & Conflict
+Political Crisis,Politics & Law
+Political Decision,Politics & Law
+Political Declaration,Politics & Law
+Political Development,Politics & Law
+Political Dominion,Independence & Nation-Building
+Political Formation,Independence & Nation-Building
+Political Framework,Politics & Law
+Political Ideology,Politics & Law
+Political Inclusion,Politics & Law
+Political Integration,Independence & Nation-Building
+Political Milestone,Politics & Law
+Political Movement,Politics & Law
+Political Party,Politics & Law
+Political Party Formation,Politics & Law
+Political Protest,Society & Health
+Political Rebellion,War & Conflict
+Political Reform,Politics & Law
+Political Reorganization,Politics & Law
+Political Repression,Politics & Law
+Political Restoration,Politics & Law
+Political Revolution,Politics & Law
+Political Scandal,Politics & Law
+Political Separation,Independence & Nation-Building
+Political Transition,Politics & Law
+Political Unification,Independence & Nation-Building
+Political Union,Independence & Nation-Building
+Political Uprising,War & Conflict
+Political/Economic Integration,Diplomacy & International Relations
+Political/Economic Reform,Economy & Infrastructure
+Political/Infrastructure,Economy & Infrastructure
+Political/Legal,Politics & Law
+Political/Military Organization,War & Conflict
+Political/Religious Movement,Society & Health
+Political/Secession,Independence & Nation-Building
+Political/Social,Politics & Law
+Political/Social Movement,Society & Health
+Political/Social Reform,Politics & Law
+Political/Territorial Change,Independence & Nation-Building
+Population Control Policy,Society & Health
+Post-Civil War Reconstruction,Economy & Infrastructure
+Pre-Revolutionary Conflict,War & Conflict
+Prehistoric Monument,"Culture, Religion & Sport"
+Protectorate Establishment,Independence & Nation-Building
+Protest Movement,Society & Health
+Protests,Society & Health
+Public Health,Society & Health
+Rail,Economy & Infrastructure
+Rebellion,War & Conflict
+Reconstruction,Economy & Infrastructure
+Referendum,Politics & Law
+Regional Conflict,War & Conflict
+Regulatory Body,Politics & Law
+Religious,"Culture, Religion & Sport"
+Religious Conversion,"Culture, Religion & Sport"
+Religious Policy,"Culture, Religion & Sport"
+Religious Reformation,"Culture, Religion & Sport"
+Religious Shrine,"Culture, Religion & Sport"
+Religious Spread,"Culture, Religion & Sport"
+Religious War,War & Conflict
+Religious/Court,"Culture, Religion & Sport"
+Religious/Cultural,"Culture, Religion & Sport"
+Religious/Military War,War & Conflict
+Religious/Political,"Culture, Religion & Sport"
+Rescue Operation,Disasters & Accidents
+Resistance Movement,War & Conflict
+Revolt,War & Conflict
+Revolution,Politics & Law
+Royal Event,Independence & Nation-Building
+Scientific,"Science, Technology & Exploration"
+Scientific Achievement,"Science, Technology & Exploration"
+Scientific Organization,"Science, Technology & Exploration"
+Secession Attempt,Independence & Nation-Building
+Security Incident,War & Conflict
+Security Policy,Politics & Law
+Settlement,Independence & Nation-Building
+Social,Society & Health
+Social Justice,Society & Health
+Social Movement,Society & Health
+Social Movement/Legal,Society & Health
+Social Policy,Society & Health
+Social Reform,Society & Health
+Social Unrest,Society & Health
+Social Welfare,Society & Health
+Social Welfare Legislation,Society & Health
+Social Welfare Program,Society & Health
+Sovereignty Transition,Independence & Nation-Building
+Space Agency,"Science, Technology & Exploration"
+Space Exploration,"Science, Technology & Exploration"
+Space Exploration Disaster,Disasters & Accidents
+Spacecraft Accident,Disasters & Accidents
+Sport,"Culture, Religion & Sport"
+Sporting Event,"Culture, Religion & Sport"
+Sports,"Culture, Religion & Sport"
+State Establishment,Independence & Nation-Building
+State Formation,Independence & Nation-Building
+Structural Failure,Disasters & Accidents
+Sultanate Formation,Independence & Nation-Building
+Technological Advancement,"Science, Technology & Exploration"
+Technology,"Science, Technology & Exploration"
+Telecommunications,"Science, Technology & Exploration"
+Territorial Acquisition,Independence & Nation-Building
+Territorial Expansion,Independence & Nation-Building
+Terrorism,War & Conflict
+Trade Route Development,Economy & Infrastructure
+Transportation,Economy & Infrastructure
+Treaty,Diplomacy & International Relations
+Unification,Independence & Nation-Building
+Union,Independence & Nation-Building
+Urban Development,Economy & Infrastructure
+Violent Protest,Society & Health
+War,War & Conflict
+War Declaration,War & Conflict
+Wildlife Conservation,Society & Health
+World Expo,"Culture, Religion & Sport"
+World's Fair,"Culture, Religion & Sport"
