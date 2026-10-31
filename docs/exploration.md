@@ -19,7 +19,7 @@
 
 - 26 different centuries, from the 26th century BC to the 21st century AD.
 - The 19th, 20th and 21st centuries hold **910 of 1,088 events (84%)**. The 20th century alone has 544 (50%).
-- Before 1500 AD, no century has more than 12 events.
+- Before the 15th century, no century has more than 12 events.
 
 **Finding:** the timeline is very uneven. Early periods are covered by a few landmark events (Indus Valley, Stonehenge, Hammurabi's Code), not by steady coverage. Charts by century should use this as context, not as a measure of how "eventful" history was.
 
