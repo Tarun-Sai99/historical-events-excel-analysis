@@ -60,13 +60,24 @@ To group and filter events, I added five formula columns to the cleaned table:
 
 Lookup tables: [`data/reference/`](data/reference/). Column details: [data dictionary](docs/data_dictionary.md).
 
+## Exploration
+
+Five PivotTables on the `Analysis` sheet answer the first questions about the data:
+
+- **More than half of the events (55%) are from 1946 onward**, and 84% are from the last three centuries. Early history is covered by a few landmark events.
+- **Europe has about 1 in 4 events**, while Latin America and Central Asia are thinly covered.
+- **What history "looks like" changes by era:** Ancient events are mostly culture and religion (44%), war peaks in the Modern era (33%), and politics leads in the Contemporary era (28%).
+- **Outcome labels are subjective:** only 59% of wars are marked Negative.
+
+Details: [exploration notes](docs/exploration.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
 - [x] Day 2: Profile the data
 - [x] Day 3: Clean the data
 - [x] Day 4: Add helper columns (century, era, region, category)
-- [ ] Day 5: Explore with formulas and PivotTables
+- [x] Day 5: Explore with formulas and PivotTables
 - [ ] Day 6: Build charts
 - [ ] Day 7: Build interactive dashboard
 - [ ] Day 8: Write insights and finish README
