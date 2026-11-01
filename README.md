@@ -71,6 +71,18 @@ Five PivotTables on the `Analysis` sheet answer the first questions about the da
 
 Details: [exploration notes](docs/exploration.md).
 
+## Charts
+
+Five PivotCharts on the `Charts` sheet turn the exploration into visuals. Each title states the finding:
+
+1. Over half of events are from after 1945 (combo chart: count + % share)
+2. 84% of events come from the last 3 centuries (column chart by century)
+3. Europe has 1 in 4 events (ranked bar chart by region)
+4. War peaks in the Modern era, politics leads after 1945 (100% stacked columns)
+5. Disasters are 97% negative, but only 59% of wars are (100% stacked bars)
+
+Chart types and design choices: [charts notes](docs/charts.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
@@ -78,6 +90,6 @@ Details: [exploration notes](docs/exploration.md).
 - [x] Day 3: Clean the data
 - [x] Day 4: Add helper columns (century, era, region, category)
 - [x] Day 5: Explore with formulas and PivotTables
-- [ ] Day 6: Build charts
+- [x] Day 6: Build charts
 - [ ] Day 7: Build interactive dashboard
 - [ ] Day 8: Write insights and finish README
