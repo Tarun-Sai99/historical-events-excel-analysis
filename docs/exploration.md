@@ -41,7 +41,7 @@
 
 **Finding:** Europe has about 1 in 4 events (24.6%). Latin America and Central Asia are thinly covered. Oceania (86) has more events than all of Latin America (52), which reflects the dataset author's choices more than world history.
 
-## 4. Category mix in each era (K3, % of each era)
+## 4. Category mix in each era (K3, one row per era, % of each era)
 
 | Category | Ancient | Medieval | Early Modern | Modern | Contemporary |
 |---|---:|---:|---:|---:|---:|
@@ -57,7 +57,7 @@
 - **War & Conflict peaks in the Modern era (33%)**, the period of colonial wars and the two World Wars.
 - In the **Contemporary** era, **Politics & Law** is the biggest category (28%), and war drops to 15%. Disasters, society & health, and diplomacy all grow.
 
-## 5. Outcome by category (S3, % of each category)
+## 5. Outcome by category (K18, % of each category)
 
 | Category | Positive | Negative | Mixed |
 |---|---:|---:|---:|
