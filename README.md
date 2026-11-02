@@ -83,6 +83,16 @@ Five PivotCharts on the `Dashboard` sheet turn the exploration into visuals. Eac
 
 Chart types and design choices: [charts notes](docs/charts.md).
 
+## Dashboard
+
+The `Dashboard` sheet (first sheet in the workbook) brings it all together on one page:
+
+- **Four KPI cards:** total events, share from after 1945, top region, share of negative outcomes. Each is linked to a PivotTable with `GETPIVOTDATA`, so it updates with the filters.
+- **The five charts** described above.
+- **Three slicers (Era, Region, Category)** connected to every PivotTable, so one click filters the whole page.
+
+Details: [dashboard notes](docs/dashboard.md).
+
 ## Progress
 
 - [x] Day 1: Set up repo and load data
@@ -91,5 +101,5 @@ Chart types and design choices: [charts notes](docs/charts.md).
 - [x] Day 4: Add helper columns (century, era, region, category)
 - [x] Day 5: Explore with formulas and PivotTables
 - [x] Day 6: Build charts
-- [ ] Day 7: Build interactive dashboard
+- [x] Day 7: Build interactive dashboard
 - [ ] Day 8: Write insights and finish README
