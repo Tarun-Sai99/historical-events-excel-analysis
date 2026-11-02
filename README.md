@@ -6,7 +6,7 @@ An Excel project that cleans, explores and visualises **1,088 major world events
 
 **Tools:** Microsoft Excel 2021: Power Query, formulas (`XLOOKUP`, `LET`, `IFS`, `GETPIVOTDATA`), PivotTables, PivotCharts, slicers
 
-![Dashboard](images/dashboard.png)
+![Project overview](images/project_overview.png)
 
 ## Key insights
 
@@ -117,7 +117,7 @@ data/reference/   lookup tables (country to region, event type to category)
 data/cleaned/     cleaned data exported from Excel
 workbook/         the Excel workbook
 docs/             data dictionary, profiling, cleaning log, exploration, charts, dashboard, insights
-images/           dashboard screenshot
+images/           project overview image
 ```
 
 ## Dataset
