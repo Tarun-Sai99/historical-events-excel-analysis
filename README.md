@@ -1,32 +1,48 @@
 # Historical Events & Timeline Analysis (Excel)
 
-**Question:** How have major world events been spread across time, regions and categories, from ancient times up to the 21st century?
+An Excel project that cleans, explores and visualises **1,088 major world events from 2600 BC to 2022**, to answer one question:
 
-**Tools:** Microsoft Excel 2021 (Power Query, formulas, PivotTables, charts, slicers)
+**How have major world events been spread across time, regions and categories?**
 
-**Dataset:** [World Important Events - Ancient to Modern](https://www.kaggle.com/datasets/saketk511/world-important-events-ancient-to-modern) by saketk511 on Kaggle. Used for learning purposes.
+**Tools:** Microsoft Excel 2021: Power Query, formulas (`XLOOKUP`, `LET`, `IFS`, `GETPIVOTDATA`), PivotTables, PivotCharts, slicers
 
-> Work in progress. This README will be completed as the project is built.
+![Dashboard](images/dashboard.png)
 
-## Project structure
+## Key insights
 
-```
-data/raw/         original dataset, never edited
-data/reference/   lookup tables (country to region, event type to category)
-data/cleaned/     cleaned data exported from Excel
-workbook/         the Excel workbook
-docs/             data dictionary, profiling notes, cleaning log, insights
-images/           chart and dashboard screenshots
-```
+1. **The record leans heavily toward recent history.** 55% of events are from after 1945, and 84% from the last three centuries. The busiest decade is the 2010s.
+2. **Europe dominates, especially early on.** Europe has 1 in 4 events overall and about half of all events before 1800.
+3. **What gets recorded changes by era.** Ancient events are mostly culture and religion (44%), war peaks in 1800–1945 (33%), and politics leads after 1945 (28%).
+4. **Africa's story is independence.** 95% of Sub-Saharan African events are from after 1945, and over half are about independence and nation-building.
+5. **Outcome labels are subjective.** Disasters are 97% "Negative", but only 59% of wars are, since wars that led to independence are often marked "Positive".
 
-## The data
+Full write-up with numbers, limitations and next steps: [insights](docs/insights.md).
+
+## What's in the workbook
+
+[`workbook/historical_events_analysis.xlsx`](workbook/historical_events_analysis.xlsx)
+
+| Sheet | What it does |
+|---|---|
+| **Dashboard** | KPI cards, 5 charts and 3 slicers (Era, Region, Category) that filter everything at once |
+| **Lookups** | Country → region and event type → category tables |
+| **Analysis** | 5 PivotTables behind the charts |
+| **Clean_Data** | Cleaned table (Power Query) plus formula columns: Century, Era, Country_Std, Region, Category |
+| **Raw_Data** | Original data, loaded untouched with Power Query |
+| **Profiling** | Data-quality checks done with formulas before cleaning |
+
+**To use it:** open the workbook and click the slicer buttons on the Dashboard (Ctrl+click to pick several). To reload the data on another computer, point Power Query to `data/raw/World Important Dates.csv` (**Data → Get Data → Data Source Settings → Change Source**), then use **Data → Refresh All**.
+
+## How I built it
+
+### The data
 
 - **1,096 events** (one row per event) with **12 columns**: name, day, month, year, country, type of event, place, impact, affected population, person or group responsible, and outcome (Positive, Negative, Mixed or Ongoing).
 - Covers **2600 BC to 2022 AD** across **113 countries**.
 - Imported into Excel with **Power Query** (`Raw_Data` query), so the raw file is never edited and the workbook can be refreshed.
 - Every column is described in the [data dictionary](docs/data_dictionary.md).
 
-## Data quality
+### Data quality
 
 Before cleaning, I profiled every column with formulas on the `Profiling` sheet. Main findings:
 
@@ -37,7 +53,7 @@ Before cleaning, I profiled every column with formulas on the `Profiling` sheet.
 
 Full details: [data profiling notes](docs/data_profiling.md).
 
-## Data cleaning
+### Data cleaning
 
 All cleaning is done in Power Query (`Clean_Data` query), so every step is recorded and repeatable.
 
@@ -50,7 +66,7 @@ All cleaning is done in Power Query (`Clean_Data` query), so every step is recor
 
 Cleaned data: [`data/cleaned/world_important_events_clean.csv`](data/cleaned/world_important_events_clean.csv). Every change, with reasons and sources: [cleaning log](docs/cleaning_log.md).
 
-## Helper columns
+### Helper columns
 
 To group and filter events, I added five formula columns to the cleaned table:
 
@@ -60,7 +76,7 @@ To group and filter events, I added five formula columns to the cleaned table:
 
 Lookup tables: [`data/reference/`](data/reference/). Column details: [data dictionary](docs/data_dictionary.md).
 
-## Exploration
+### Exploration
 
 Five PivotTables on the `Analysis` sheet answer the first questions about the data:
 
@@ -71,7 +87,7 @@ Five PivotTables on the `Analysis` sheet answer the first questions about the da
 
 Details: [exploration notes](docs/exploration.md).
 
-## Charts
+### Charts
 
 Five PivotCharts on the `Dashboard` sheet turn the exploration into visuals. Each title states the finding:
 
@@ -83,7 +99,7 @@ Five PivotCharts on the `Dashboard` sheet turn the exploration into visuals. Eac
 
 Chart types and design choices: [charts notes](docs/charts.md).
 
-## Dashboard
+### Dashboard
 
 The `Dashboard` sheet (first sheet in the workbook) brings it all together on one page:
 
@@ -93,13 +109,17 @@ The `Dashboard` sheet (first sheet in the workbook) brings it all together on on
 
 Details: [dashboard notes](docs/dashboard.md).
 
-## Progress
+## Project structure
 
-- [x] Day 1: Set up repo and load data
-- [x] Day 2: Profile the data
-- [x] Day 3: Clean the data
-- [x] Day 4: Add helper columns (century, era, region, category)
-- [x] Day 5: Explore with formulas and PivotTables
-- [x] Day 6: Build charts
-- [x] Day 7: Build interactive dashboard
-- [ ] Day 8: Write insights and finish README
+```
+data/raw/         original dataset, never edited
+data/reference/   lookup tables (country to region, event type to category)
+data/cleaned/     cleaned data exported from Excel
+workbook/         the Excel workbook
+docs/             data dictionary, profiling, cleaning log, exploration, charts, dashboard, insights
+images/           dashboard screenshot
+```
+
+## Dataset
+
+[World Important Events - Ancient to Modern](https://www.kaggle.com/datasets/saketk511/world-important-events-ancient-to-modern) by saketk511 on Kaggle. Used for learning purposes.
