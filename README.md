@@ -18,6 +18,43 @@ An Excel project that cleans, explores and visualises **1,088 major world events
 
 Full write-up with numbers, limitations and next steps: [insights](docs/insights.md).
 
+## Charts
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<b>Over half of events are from after 1945</b><br>
+<sub>Events per era (columns) and each era's share of all events (line).</sub><br><br>
+<img src="images/charts/1_events_by_era.png" alt="Over half of events are from after 1945">
+</td>
+<td width="50%" valign="top">
+<b>84% of events come from the last 3 centuries</b><br>
+<sub>Events per century. Negative centuries are BC.</sub><br><br>
+<img src="images/charts/2_events_by_century.png" alt="84% of events come from the last 3 centuries">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>Europe has 1 in 4 events</b><br>
+<sub>Events per world region, largest first.</sub><br><br>
+<img src="images/charts/4_events_by_region.png" alt="Europe has 1 in 4 events">
+</td>
+<td width="50%" valign="top">
+<b>War peaks in the Modern era, politics leads after 1945</b><br>
+<sub>Share of each event category within each era.</sub><br><br>
+<img src="images/charts/3_category_mix_by_era.png" alt="War peaks in the Modern era, politics leads after 1945">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>Disasters are 97% negative, but only 59% of wars are</b><br>
+<sub>Share of Positive, Negative, Mixed and Ongoing outcomes within each event category.</sub><br><br>
+<img src="images/charts/5_outcome_by_category.png" alt="Disasters are 97% negative, but only 59% of wars are">
+</td>
+<td width="50%"></td>
+</tr>
+</table>
+
 ## What's in the workbook
 
 [`workbook/historical_events_analysis.xlsx`](workbook/historical_events_analysis.xlsx)
@@ -117,7 +154,7 @@ data/reference/   lookup tables (country to region, event type to category)
 data/cleaned/     cleaned data exported from Excel
 workbook/         the Excel workbook
 docs/             data dictionary, profiling, cleaning log, exploration, charts, dashboard, insights
-images/           project overview image
+images/           project overview image and the 5 chart images
 ```
 
 ## Dataset
