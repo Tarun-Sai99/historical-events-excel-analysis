@@ -1,7 +1,7 @@
 # Charts
 
 **Date:** 2026-11-01
-**Where:** the `Charts` sheet in `workbook/historical_events_analysis.xlsx`. All five are **PivotCharts** built on the PivotTables in the `Analysis` sheet, so they update when the data is refreshed.
+**Where:** the `Dashboard` sheet (called `Charts` until Day 7) in `workbook/historical_events_analysis.xlsx`. All five are **PivotCharts** built on the PivotTables in the `Analysis` sheet, so they update when the data is refreshed.
 
 Each chart title states the finding, not just the topic, so a reader gets the point without studying the axes.
 

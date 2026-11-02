@@ -73,7 +73,7 @@ Details: [exploration notes](docs/exploration.md).
 
 ## Charts
 
-Five PivotCharts on the `Charts` sheet turn the exploration into visuals. Each title states the finding:
+Five PivotCharts on the `Dashboard` sheet turn the exploration into visuals. Each title states the finding:
 
 1. Over half of events are from after 1945 (combo chart: count + % share)
 2. 84% of events come from the last 3 centuries (column chart by century)
