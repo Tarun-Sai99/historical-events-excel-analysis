@@ -8,6 +8,8 @@ An Excel project that cleans, explores and visualises **1,088 major world events
 
 ![Project overview](images/project_overview.png)
 
+> **Want to see the full dashboard?** The complete dashboard image is in [docs/dashboard.md](docs/dashboard.md#full-dashboard).
+
 ## Key insights
 
 1. **The record leans heavily toward recent history.** 55% of events are from after 1945, and 84% from the last three centuries. The busiest decade is the 2010s.
@@ -144,7 +146,7 @@ The `Dashboard` sheet (first sheet in the workbook) brings it all together on on
 - **The five charts** described above.
 - **Three slicers (Era, Region, Category)** connected to every PivotTable, so one click filters the whole page.
 
-Details: [dashboard notes](docs/dashboard.md).
+Details and the full dashboard image: [dashboard notes](docs/dashboard.md).
 
 ## Project structure
 
@@ -154,7 +156,7 @@ data/reference/   lookup tables (country to region, event type to category)
 data/cleaned/     cleaned data exported from Excel
 workbook/         the Excel workbook
 docs/             data dictionary, profiling, cleaning log, exploration, charts, dashboard, insights
-images/           project overview image and the 5 chart images
+images/           project overview image, full dashboard image and the 5 chart images
 ```
 
 ## Dataset
