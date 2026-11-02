@@ -5,6 +5,12 @@
 
 One page that answers the project question at a glance: how major world events are spread across time, regions and categories.
 
+## Full dashboard
+
+This is the whole Dashboard sheet on one page (exported from Excel as a PDF).
+
+![Full dashboard](../images/dashboard_full.png)
+
 ## Layout
 
 1. **Title and subtitle** (rows 1–2)
